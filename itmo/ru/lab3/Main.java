@@ -1,10 +1,10 @@
+package itmo.ru.lab3;
 
 import itmo.ru.lab3.Actors.*;
 import itmo.ru.lab3.Actors.Monsters.Dragon;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
         Minorcharacter Smekailo = new Minorcharacter("Смекайло ","Писатель ","бормотографом ");
         Kids Baby = new Kids("male");
         Kids BabyFemale = new Kids("female");
