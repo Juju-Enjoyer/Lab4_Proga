@@ -18,10 +18,10 @@ public class Main {
         Smekailo.getWithSmth();
         Smekailo.listenSmth();
         Smekailo.confirmNames(Baby, Vint, Shunt);
-        Znaika.Feels();
+        Znaika.feels();
         Znaika.speakSmth();
         Znaika.askToShowTheWay("туда");
-        InhabitantGreen.Feels();
+        InhabitantGreen.feels();
         InhabitantGreen.listenSmth();
         InhabitantGreen.speakSmth();
         Dragon.settle();

@@ -15,7 +15,7 @@ public class MainCharacters extends Mentioned implements Feels,Speak {
         System.out.print(" просил показать дорогу "+where);
     }
     @Override
-    public void Feels(){
+    public void feels(){
         System.out.print(" "+name +" "+FeelsList.Happy);
 
    }

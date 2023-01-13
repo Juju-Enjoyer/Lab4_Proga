@@ -17,17 +17,5 @@ public class Kids extends Lilliputian {
         }
     }
 
-    @Override
-    public boolean equals(Object other) {
-        if (this == other) return true;
-        if (other == null || getClass() != other.getClass()) return false;
-        Kids kids = (Kids) other;
-        return Objects.equals(gender, kids.gender);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(gender);
-    }
 }
 

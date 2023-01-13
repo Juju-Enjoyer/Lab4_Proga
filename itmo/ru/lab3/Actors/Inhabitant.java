@@ -24,7 +24,7 @@ public class Inhabitant extends Lilliputian implements Speak, Listen, Feels {
     }
 
     @Override
-    public void Feels() {
+    public void feels() {
         System.out.print(" жители "+FeelsList.SadNoOne);
     }
 
@@ -38,16 +38,5 @@ public class Inhabitant extends Lilliputian implements Speak, Listen, Feels {
         System.out.print(" и сказали" + PhrasesForSaying.youCantGoThere);
     }
 
-    @Override
-    public boolean equals(Object other) {
-        if (this == other) return true;
-        if (other == null || getClass() != other.getClass()) return false;
-        Inhabitant that = (Inhabitant) other;
-        return Objects.equals(placeOfResidence, that.placeOfResidence);
-    }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(placeOfResidence);
-    }
 }
