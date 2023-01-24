@@ -1,8 +1,12 @@
-package itmo.ru.lab3.Enum;
+package ru.itmo.Enum;
 
 public enum PhrasesForSaying {
     WILLGO(", что сейчас же отправится в Зеленый город "),
-    youCantGoThere(", что в Зеленый город ходить нельзя, так как там ");
+    youCantGoGreen(", что в Зеленый город ходить нельзя, так как там "),
+    TOLD("рассказали "),
+    Told2("сказали "),
+    Сolon(": ");
+
 
 
     private String Phrases;

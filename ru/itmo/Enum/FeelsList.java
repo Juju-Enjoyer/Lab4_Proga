@@ -1,6 +1,4 @@
-package itmo.ru.lab3.Enum;
-
-import itmo.ru.lab3.Interfaces.Feels;
+package ru.itmo.Enum;
 
 public enum FeelsList {
     Sad("опечалился"),

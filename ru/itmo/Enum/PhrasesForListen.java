@@ -1,4 +1,4 @@
-package itmo.ru.lab3.Enum;
+package ru.itmo.Enum;
 
 public enum PhrasesForListen {
     IT("это"),

@@ -1,6 +1,6 @@
-package itmo.ru.lab3.Actors.Monsters;
+package ru.itmo.Actors.Monsters;
 
-import itmo.ru.lab3.Actors.Kids;
+import ru.itmo.Actors.Kids;
 
 public class Dragon extends Monster{
     private String subspecies;
@@ -12,7 +12,7 @@ public class Dragon extends Monster{
         System.out.print(" поселился "+this.subspecies+" "+this.kind);
     }
     public void devours(Kids female, Kids male){
-        System.out.print(" который пожирает "+female.kidsGender()+" и "+male.kidsGender());
+        System.out.print(" который пожирает "+female.getGender()+" и "+male.getGender());
     }
 
     public Dragon(String kind, String subspecies){

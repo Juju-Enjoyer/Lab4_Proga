@@ -1,4 +1,4 @@
-package itmo.ru.lab3.Actors;
+package ru.itmo.Actors;
 
 public abstract class Lilliputian {
 
