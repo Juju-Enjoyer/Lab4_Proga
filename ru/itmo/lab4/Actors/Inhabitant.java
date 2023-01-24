@@ -1,13 +1,13 @@
-package ru.itmo.Actors;
+package ru.itmo.lab4.Actors;
 
 
-import ru.itmo.Enum.FeelsList;
-import ru.itmo.Enum.PhrasesForListen;
-import ru.itmo.Enum.PhrasesForSaying;
-import ru.itmo.Interfaces.Feels;
-import ru.itmo.Interfaces.Listen;
-import ru.itmo.Interfaces.Speak;
-import ru.itmo.Interfaces.YourName;
+import ru.itmo.lab4.Enum.FeelsList;
+import ru.itmo.lab4.Enum.PhrasesForListen;
+import ru.itmo.lab4.Enum.PhrasesForSaying;
+import ru.itmo.lab4.Interfaces.Feels;
+import ru.itmo.lab4.Interfaces.Listen;
+import ru.itmo.lab4.Interfaces.Speak;
+import ru.itmo.lab4.Interfaces.YourName;
 
 public class Inhabitant extends Lilliputian implements Speak, Listen, Feels, YourName {
     private String placeOfResidence;

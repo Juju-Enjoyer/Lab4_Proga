@@ -1,6 +1,6 @@
-package ru.itmo.Actors.Monsters;
+package ru.itmo.lab4.Actors.Monsters;
 
-import ru.itmo.Actors.Kids;
+import ru.itmo.lab4.Actors.Kids;
 
 public class Dragon extends Monster{
     private String subspecies;

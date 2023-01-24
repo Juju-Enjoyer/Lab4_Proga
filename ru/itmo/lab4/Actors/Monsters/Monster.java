@@ -1,4 +1,4 @@
-package ru.itmo.Actors.Monsters;
+package ru.itmo.lab4.Actors.Monsters;
 
 public abstract class Monster {
     protected String kind;

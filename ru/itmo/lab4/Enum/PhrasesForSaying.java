@@ -1,4 +1,4 @@
-package ru.itmo.Enum;
+package ru.itmo.lab4.Enum;
 
 public enum PhrasesForSaying {
     WILLGO(", что сейчас же отправится в Зеленый город "),

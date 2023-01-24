@@ -1,6 +1,6 @@
-package ru.itmo.Interfaces;
+package ru.itmo.lab4.Interfaces;
 
-import ru.itmo.Enum.PhrasesForSaying;
+import ru.itmo.lab4.Enum.PhrasesForSaying;
 
 public interface Speak {
     public void speakSmth(PhrasesForSaying phrases);

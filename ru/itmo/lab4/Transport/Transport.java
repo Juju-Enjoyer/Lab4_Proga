@@ -1,4 +1,4 @@
-package ru.itmo.Transport;
+package ru.itmo.lab4.Transport;
 
 public class Transport {
     private String mode;

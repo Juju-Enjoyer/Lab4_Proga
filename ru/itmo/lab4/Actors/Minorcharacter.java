@@ -1,10 +1,10 @@
-package ru.itmo.Actors;
+package ru.itmo.lab4.Actors;
 
-import ru.itmo.Enum.GenderList;
-import ru.itmo.Enum.PhrasesForListen;
-import ru.itmo.Interfaces.Listen;
-import ru.itmo.Interfaces.YourName;
-import ru.itmo.MyException.NotThatClassException;
+import ru.itmo.lab4.Enum.GenderList;
+import ru.itmo.lab4.Enum.PhrasesForListen;
+import ru.itmo.lab4.Interfaces.Listen;
+import ru.itmo.lab4.Interfaces.YourName;
+import ru.itmo.lab4.MyException.NotThatClassException;
 
 import java.util.Objects;
 

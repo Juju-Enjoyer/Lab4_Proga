@@ -1,11 +1,11 @@
-package ru.itmo;
+package ru.itmo.lab4;
 
-import ru.itmo.Actors.Monsters.Dragon;
-import ru.itmo.Actors.*;
-import ru.itmo.Enum.*;
-import ru.itmo.MyException.NotThatClassException;
-import ru.itmo.Place.LocationOfEvents;
-import ru.itmo.Transport.Transport;
+import ru.itmo.lab4.Actors.Monsters.Dragon;
+import ru.itmo.lab4.Actors.*;
+import ru.itmo.lab4.Enum.*;
+import ru.itmo.lab4.MyException.NotThatClassException;
+import ru.itmo.lab4.Place.LocationOfEvents;
+import ru.itmo.lab4.Transport.Transport;
 
 public class Main {
     public static void main(String[] args) throws NotThatClassException {
@@ -31,7 +31,9 @@ public class Main {
         Kids Them = new Kids(GenderList.AboutBaby);
         Them.description();
         Balloon.travelByTransport();
-        Them.howManyOfThem(3);
+
+        Them.howManyOfThem(2);
+
         Them.cameForWhat("паяльником", WhatWhereWhen.ZmeevkaCity);
         time.getTime(WhatWhereWhen.After);
         Minorcharacter Shef = new Minorcharacter("Бубликом", "шофером");

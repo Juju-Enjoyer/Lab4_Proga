@@ -1,6 +1,6 @@
-package ru.itmo.Place;
+package ru.itmo.lab4.Place;
 
-import ru.itmo.Enum.WhatWhereWhen;
+import ru.itmo.lab4.Enum.WhatWhereWhen;
 
 public class LocationOfEvents {
     public static class WhereEvents{

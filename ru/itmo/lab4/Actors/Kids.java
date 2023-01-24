@@ -1,10 +1,9 @@
-package ru.itmo.Actors;
+package ru.itmo.lab4.Actors;
 
-import ru.itmo.Enum.GenderList;
+import ru.itmo.lab4.Enum.GenderList;
 
-import ru.itmo.Enum.WhatWhereWhen;
-import ru.itmo.Interfaces.Described;
-import ru.itmo.Place.LocationOfEvents;
+import ru.itmo.lab4.Enum.WhatWhereWhen;
+import ru.itmo.lab4.Interfaces.Described;
 
 public class Kids extends Lilliputian implements Described{
     private GenderList gender;

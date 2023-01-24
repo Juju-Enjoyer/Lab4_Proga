@@ -1,4 +1,4 @@
-package ru.itmo.MyException;
+package ru.itmo.lab4.MyException;
 
 public class NotThatClassException extends RuntimeException{
     public NotThatClassException(String message){

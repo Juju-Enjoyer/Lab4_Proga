@@ -1,4 +1,4 @@
-package ru.itmo.Interfaces;
+package ru.itmo.lab4.Interfaces;
 
 public interface Described{
     /*public enum WordsToDescribe {

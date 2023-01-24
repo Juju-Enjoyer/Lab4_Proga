@@ -1,10 +1,9 @@
-package ru.itmo.Actors;
-import ru.itmo.Actors.*;
-import ru.itmo.Enum.FeelsList;
-import ru.itmo.Enum.PhrasesForSaying;
-import ru.itmo.Interfaces.Feels;
-import ru.itmo.Interfaces.Speak;
-import ru.itmo.Interfaces.YourName;
+package ru.itmo.lab4.Actors;
+import ru.itmo.lab4.Enum.FeelsList;
+import ru.itmo.lab4.Enum.PhrasesForSaying;
+import ru.itmo.lab4.Interfaces.Feels;
+import ru.itmo.lab4.Interfaces.Speak;
+import ru.itmo.lab4.Interfaces.YourName;
 
 public class MainCharacters extends Lilliputian implements Feels, Speak, YourName {
     private String name;

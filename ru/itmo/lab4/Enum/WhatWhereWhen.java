@@ -1,4 +1,4 @@
-package ru.itmo.Enum;
+package ru.itmo.lab4.Enum;
 
 public enum WhatWhereWhen {
     FewDayAgo("несколько дней назад "),

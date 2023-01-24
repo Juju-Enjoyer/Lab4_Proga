@@ -1,6 +1,6 @@
-package ru.itmo.Interfaces;
+package ru.itmo.lab4.Interfaces;
 
-import ru.itmo.Enum.PhrasesForListen;
+import ru.itmo.lab4.Enum.PhrasesForListen;
 
 public interface Listen {
     public void listenSmth(PhrasesForListen phrases);
