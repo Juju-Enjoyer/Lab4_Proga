@@ -3,6 +3,7 @@ package ru.itmo.lab4;
 import ru.itmo.lab4.Actors.Monsters.Dragon;
 import ru.itmo.lab4.Actors.*;
 import ru.itmo.lab4.Enum.*;
+import ru.itmo.lab4.Interfaces.Speak;
 import ru.itmo.lab4.MyException.NotThatClassException;
 import ru.itmo.lab4.Place.LocationOfEvents;
 import ru.itmo.lab4.Transport.Transport;
@@ -11,15 +12,17 @@ public class Main {
     public static void main(String[] args) throws NotThatClassException {
         MainCharacters Znaika = new MainCharacters("Знайка");//взял из 3
         //4 laba
-        Inhabitant ZmeevkiVill = new Inhabitant("Змеевка") {
+        class ZmeevkiVillDontSayVill implements Speak{
             @Override
             public void speakSmth(PhrasesForSaying phrases) {
                 System.out.print(phrases);
             }
         };
+        Inhabitant ZmeevkiVill = new Inhabitant("Змеевка");
         ZmeevkiVill.yourName();
         ZmeevkiVill.getPlaceOfResidence();
-        ZmeevkiVill.speakSmth(PhrasesForSaying.TOLD);
+        ZmeevkiVillDontSayVill ZVDSV = new ZmeevkiVillDontSayVill();
+        ZVDSV.speakSmth(PhrasesForSaying.TOLD);
         Znaika.yourName();
         LocationOfEvents.WhereEvents place = new LocationOfEvents.WhereEvents();
         LocationOfEvents.WhenEvents time = new LocationOfEvents.WhenEvents();
