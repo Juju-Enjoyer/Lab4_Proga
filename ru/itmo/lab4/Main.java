@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) throws NotThatClassException {
         MainCharacters Znaika = new MainCharacters("Знайка");//взял из 3
         //4 laba
-        class ZmeevkiVillDontSayVill implements Speak{
+        Speak ZmeevkiVillDontSayVill = new Speak() {
             @Override
             public void speakSmth(PhrasesForSaying phrases) {
                 System.out.print(phrases);
@@ -21,8 +21,7 @@ public class Main {
         Inhabitant ZmeevkiVill = new Inhabitant("Змеевка");
         ZmeevkiVill.yourName();
         ZmeevkiVill.getPlaceOfResidence();
-        ZmeevkiVillDontSayVill ZVDSV = new ZmeevkiVillDontSayVill();
-        ZVDSV.speakSmth(PhrasesForSaying.TOLD);
+        ZmeevkiVillDontSayVill.speakSmth(PhrasesForSaying.TOLD);
         Znaika.yourName();
         LocationOfEvents.WhereEvents place = new LocationOfEvents.WhereEvents();
         LocationOfEvents.WhenEvents time = new LocationOfEvents.WhenEvents();
